@@ -1,0 +1,21 @@
+{
+  "name": "ai-novel-writer",
+  "version": "1.0.0",
+  "description": "AI 小说创作助手 — a small Express web app that writes/continues novels with an LLM (with an offline demo mode).",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
